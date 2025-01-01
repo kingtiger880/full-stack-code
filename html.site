@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!DOCTYPE html>
+    <html lang="he">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css"> <!-- חיבור CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- חיבור Font Awesome -->
+        <title>אתר לדוגמה</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+    
+    <header>
+        <!-- כפתור תפריט -->
+        <button class="menu-btn" id="menuBtn">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+        </button>
+    
+        <div class="logo">לוגו</div>
+        <nav class="nav-links">
+            <a href="#">דף הבית</a>
+            <a href="#">עלינו</a>
+            <a href="#">שירותים</a>
+            <a href="#">צור קשר</a>
+        </nav>
+    </header>
+    
+    <!-- סיידבר -->
+    <aside class="sidebar" id="sidebar">
+        <ul class="sidebar-links">
+            <li><a href="#">ארכיון</a></li>
+            <li><a href="#">גלרית אמנים</a></li>
+            <li><a href="#">מבצעים</a></li>
+        </ul>
+    </aside>
+    
+    <main>
+        <h1>ברוכים הבאים</h1>
+    </main>
+    
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    
+    </body>
+    </html>
+    
